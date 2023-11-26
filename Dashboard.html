@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dash.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <aside class="sidebar-container">
+
+            <!-- left -->
+            <div class="sidebar">
+                <div class="logo">
+                    <h1>LOGO</h1>
+                    <p>Welcome to My Website</p>
+                </div>
+                <ul class="menu">
+                    <li class="active"><i class="fa-solid fa-table-cells-large"></i><a href="#">Dashboard</a></li>
+                    <li><i class="fa-solid fa-user"></i><a href="#">Profile</a></li>
+                    <li><i class="fa-solid fa-briefcase"></i><a href="#">Utilities</a></li>
+                    <li><i class="fa-solid fa-gear"></i><a href="#">Settings</a></li>
+                    <li class="message"><i class="fa-solid fa-envelope"></i><a href="#">Messages</a>
+                        <small>12</small>
+                    </li>
+                    <li><i class="fa-solid fa-chart-pie"></i><a href="#">Analytics</a></li>
+                    <li><i class="fa-solid fa-network-wired"></i><a href="#">Integrations</a></li>
+                </ul>
+            </div>
+            <div class="sidebar-footer">
+                <div class="history">
+                    <h2><i class="fa-solid fa-clock-rotate-left"></i></h2>
+                    <p><i class="fa-solid fa-ellipsis-vertical"></i></p>
+                </div>
+                <div class="history-title">
+                    <h3>History available</h3>
+                </div>
+                <div class="history-text">
+                    <p>Check your weekly <br>tranoction repacts</p>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Center -->
+        <section class="content">
+            <div class="content-con">
+                <div class="search-container">
+                    <input type="text" placeholder="Search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="board">
+                    <div class="sessions">
+                        <div class="board-icon"><i class="fa-solid fa-stopwatch"></i></div>
+                        <div class="board-text">
+                            <span>Sessions</span>
+                            <h3>24K</h3>
+                            <small>+33.45%</small>
+                        </div>
+                    </div>
+                    <div class="sessions">
+                        <div class="board-icon"><i class="fa-solid fa-clapperboard"></i></div>
+                        <div class="board-text">
+                            <span>Sessions</span>
+                            <h3>24K</h3>
+                            <small>-121.45%</small>
+                        </div>
+                    </div>
+                    <div class="sessions">
+                        <div class="board-icon"><i class="fa-solid fa-circle-dollar-to-slot"></i></div>
+                        <div class="board-text">
+                            <span>Sessions</span>
+                            <h3>24K</h3>
+                            <small>+86.98%</small>
+                        </div>
+                    </div>
+                    <div class="sessions">
+                        <div class="board-icon"><i class="fa-solid fa-square-poll-horizontal"></i></div>
+                        <div class="board-text">
+                            <span>Sessions</span>
+                            <h3>24K</h3>
+                            <small>+4.46%</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="growth">
+                    <div class="growth-con">
+                        <div class="growth-head">
+                            <div class="growth-left">
+                                <h4>Profile growth</h4>
+                                <small>Overal Infomation</small>
+                            </div>
+                            <div class="growth-right">
+                                <p>Month</p>
+                                <span>Years</span>
+                            </div>
+                        </div>
+                        <div id="chart" class="chart">
+                            <div class="money-growth">
+                                <small>Lorem ipsum dolor sit.</small>
+                                <p>$123001</p>
+                            </div>
+                            <div class="graph">
+                                <div class="years">
+                                    <span>2021</span>
+                                    <span>2020</span>
+                                    <span>2019</span>
+                                    <span>2018</span>
+                                </div>
+                                <div class="line-table">
+                                    <div class="line line-one"></div>
+                                    <div class="line line-two"></div>
+                                    <div class="line line-three"></div>
+                                    <div class="line line-four"></div>
+                                </div>
+                                <div class="day-rate">
+                                    <div class="rate">
+                                        <div class="rate1"></div>
+                                        <span>Mon</span>
+                                    </div>
+                                    <div class="rate">
+                                        <div class="rate2"></div>
+                                        <span>Tue</span>
+                                    </div>
+                                    <div class="rate">
+                                        <div class="rate3"></div>
+                                        <span>Wed</span>
+                                    </div>
+                                    <div class="rate">
+                                        <div class="rate4"></div>
+                                        <span>Thu</span>
+                                    </div>
+                                    <div class="rate">
+                                        <div class="rate5"></div>
+                                        <span>Fri</span>
+                                    </div>
+                                    <div class="rate">
+                                        <div class="rate6"></div>
+                                        <span>Sat</span>
+                                    </div>
+                                    <div class="rate">
+                                        <div class="rate7"></div>
+                                        <span>Sun</span>
+                                    </div>
+                                    <div class="rate">
+                                        <div class="rate8"></div>
+                                        <span>Mon</span>
+                                    </div>
+                                    <div class="rate">
+                                        <div class="rate9"></div>
+                                        <span>Tue</span>
+                                    </div>
+                                    <div class="rate">
+                                        <div class="rate10"></div>
+                                        <span>Wed</span>
+                                    </div>
+                                    <div class="rate">
+                                        <div class="rate11"></div>
+                                        <span>Thu</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rating-con">
+                    <div class="rating">
+                        <div class="rate-icon">
+                            <i class="fa-solid fa-hand-pointer"></i>
+                        </div>
+                        <div class="rating-text">
+                            <p class="rating-title">New Subscriber</p>
+                            <h5>5,095</h5>
+                            <small>+33,35%</small>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <div class="rate-icon">
+                            <i class="fa-solid fa-clock"></i>
+                        </div>
+                        <div class="rating-text">
+                            <p class="rating-title">Stream</p>
+                            <h5>47,235</h5>
+                            <small>+29,35%</small>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <div class="rate-icon">
+                            <i class="fa-solid fa-gift"></i>
+                        </div>
+                        <div class="rating-text">
+                            <p class="rating-title">Pesents</p>
+                            <h5>2,095</h5>
+                            <small>+33,99%</small>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <div class="rate-icon">
+                            <i class="fa-solid fa-circle-play"></i>
+                        </div>
+                        <div class="rating-text">
+                            <p class="rating-title">Avg Watchtime</p>
+                            <h5>5,095</h5>
+                            <small>+33,35%</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="history-list">
+                    <div class="list">
+                        <div class="product">
+                            <p>Product1</p>
+                            <p>Computer</p>
+                            <p>Acer</p>
+                            <p class="toRight">26-11-2023</p>
+                            <p class=" status">Pending</p>
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="product">
+                            <p>Product2</p>
+                            <p>Smart TV</p>
+                            <p>LG</p>
+                            <p class="toRight">22-11-2023</p>
+                            <p class=" status">Done</p>
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="product">
+                            <p>Product3</p>
+                            <p>Smart Phone</p>
+                            <p>Samsung</p>
+                            <p class="toRight">29-11-2023</p>
+                            <p class=" status">Trending</p>
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Right -->
+        <aside class="profile-side">
+            <div class="profile-container">
+                <div class="profile-header">
+                    <div class="logo">
+                        <img src="image\img.png" alt="">
+                    </div>
+                    <div class="name">
+                        <h4>Ninakhom</h4>
+                        <span>Back-end Developer</span>
+                    </div>
+                    <div class="profile-icon">
+                        <i class="fa-solid fa-bars-staggered"></i>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="dash-container">
+                <li class="dash-list">
+                    <div class="dash-title">
+                        <small>Open Projects</small>
+                        <h5>500</h5>
+                    </div>
+                    <div class="dash-icon">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </li>
+                <li class="dash-list">
+                    <div class="dash-title">
+                        <small>Successfuly Completed</small>
+                        <h5>3502</h5>
+                    </div>
+                    <div class="dash-icon">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </li>
+                <li class="dash-list">
+                    <div class="dash-title">
+                        <small>Erned This Month</small>
+                        <h5>$532001</h5>
+                    </div>
+                    <div class="dash-icon">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="analytics-container">
+                <div class="analytics-head">
+                    <p>Analytics</p>
+                    <small><i class="fa-solid fa-ellipsis-vertical"></i></small>
+                </div>
+                <div class="analytics-con">
+                    <div class="analytics-month">
+                        <div class="march calendar">
+                            <p>23</p>
+                            <small>March</small>
+                        </div>
+                        <div class="aug calendar">
+                            <p>30</p>
+                            <small>Aug</small>
+                        </div>
+                        <div class="sep calendar">
+                            <p>25</p>
+                            <small>Sep</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- calendar -->
+                <ul class="calendar-week">
+                    <li>
+                        <span>Mo</span>
+                        <small>25</small>
+                    </li>
+                    <li>
+                        <span>Tu</span>
+                        <small>26</small>
+                    </li>
+                    <li>
+                        <span>We</span>
+                        <small>27</small>
+                    </li>
+                    <li>
+                        <span>Th</span>
+                        <small>28</small>
+                    </li>
+                    <li class="active-week">
+                        <span>Fr</span>
+                        <small>29</small>
+                    </li>
+                    <li>
+                        <span>Sa</span>
+                        <small>30</small>
+                    </li>
+                    <li>
+                        <span>Su</span>
+                        <small>1</small>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="audit-con">
+                <div class="audit">
+                    <div class="audit-head">
+                        <p>Audit</p>
+                        <span>Feb 1 to Mar 5 <small><i class="fa-brands fa-bitcoin"></i></small></span>
+                    </div>
+                    <div class="reviews-con">
+                        <div class="reviews">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div class="review-text">
+                                        <div id="number">75%</div>
+                                        <small>Reviews</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                    <linearGradient id="GradientColor">
+                                        <stop offset="0%" stop-color="#5420ff" />
+                                        <stop offset="100%" stop-color="#aa01ff" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="40" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <div class="percent-access">
+                            <p>38%</p>
+                            <small>Privilege Access</small>
+                            <div class="progress-con">
+                                <div class="progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+</body>
+
+</html>
