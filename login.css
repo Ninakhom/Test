@@ -87,12 +87,13 @@ body {
 .login {
 	width: 320px;
 	padding: 30px;
-	padding-top: 130x;
+	padding-top: 156px;
 }
 
 .login__field {
 	padding: 20px 0px;	
 	position: relative;	
+    
 }
 
 .login__icon {
@@ -110,6 +111,7 @@ body {
 	font-weight: 700;
 	width: 75%;
 	transition: .2s;
+    border-radius: 10px;
 }
 
 .login__input:active,
@@ -155,8 +157,8 @@ body {
 	height: 140px;
 	width: 160px;
 	text-align: center;
-	bottom: 50px;
-	right: -20px;
+	bottom: 0px;
+	right: 0px;
 	color: #fff;
 }
 
@@ -179,5 +181,7 @@ body {
 .txt-login{
 	font: Open Sans;
 	color: #4C489D;
-	
+    margin-top: 10px;
+	padding: 1px;
+	padding-left: 24px;
 }

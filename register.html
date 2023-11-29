@@ -3,41 +3,58 @@
 <head>
   <meta charset="UTF-8">
   <title>Registration Form</title>
+  <!-- Include Font Awesome styles -->
   <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.2.0/css/all.css'>
   <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.2.0/css/fontawesome.css'>
+  <!-- Include your custom style.css file -->
   <link rel="stylesheet" href="./style.css">
+  <style>
+    /* You can add additional styles here if needed */
+  </style>
 </head>
 <body>
 
 <div class="container">
   <div class="screen">
     <div class="screen__content">
+      <!-- Registration form with various input fields -->
       <form class="login">
+        <div class="txt-regis">
+          <h1>Register</h1>
+        </div>
+        <!-- Input field for First Name -->
         <div class="login__field">
           <i class="login__icon fas fa-user"></i>
           <input type="text" class="login__input" placeholder="First Name">
         </div>
+        <!-- Input field for Last Name -->
         <div class="login__field">
           <i class="login__icon fas fa-user"></i>
           <input type="text" class="login__input" placeholder="Last Name">
         </div>
+        <!-- Input field for Email -->
         <div class="login__field">
           <i class="login__icon fas fa-envelope"></i>
           <input type="email" class="login__input" placeholder="Email">
         </div>
+        <!-- Input field for Password -->
         <div class="login__field">
           <i class="login__icon fas fa-lock"></i>
           <input type="password" class="login__input" placeholder="Password">
         </div>
+        <!-- Input field to confirm Password -->
         <div class="login__field">
           <i class="login__icon fas fa-lock"></i>
           <input type="password" class="login__input" placeholder="Confirm Password">
         </div>
+        <!-- Submit button -->
         <button class="button login__submit">
           <span class="button__text">Register Now</span>
           <i class="button__icon fas fa-chevron-right"></i>
         </button>
       </form>
+      
+      <!-- Social login options -->
       <div class="social-login">
         <h3>Register with</h3>
         <div class="social-icons">
@@ -47,6 +64,8 @@
         </div>
       </div>
     </div>
+    
+    <!-- Background shapes for styling -->
     <div class="screen__background">
       <span class="screen__background__shape screen__background__shape4"></span>
       <span class="screen__background__shape screen__background__shape3"></span>

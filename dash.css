@@ -3,12 +3,14 @@
     padding: 0;
     margin: 0;
     list-style: none;
+    
 }
 body{
     font-family: 'Roboto', sans-serif;
     height: 100vh;
     width: 100vw;
     background:linear-gradient(0deg,#daddff,#e0e5ff);
+    
 }
 .container{
     display: flex;
@@ -505,10 +507,12 @@ body{
     width: 100%;
     margin-bottom: 5px;
     text-align: left;
+    padding: 10px;
 }
 .product i{
     font-size: 12px;
     cursor: pointer;
+    
 }
 .product .toRight{
     text-align: center;
